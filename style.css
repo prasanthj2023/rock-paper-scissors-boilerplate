@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#heading{
+    font-size: 85px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#vsimg{
+    width: 100px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid gold;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2{
+    height: 400px;
+    width: 400px;
+    border: 2px solid gold;
+    border-radius: 3%;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+#paper{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#rock{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#scissors{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
+.box h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#play-btn{
+    margin-left: 43%;
+    height: 30px;
+    width: 100px;
+    background-color: goldenrod;
+    color: white;
+    display: none;
+}
+
+h2{
+    color: white;
+    margin-left: 38%;
+}
+
+.insert-img{
+    height: 200px;
+    width: 300px;
+}
+
